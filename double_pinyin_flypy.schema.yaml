@@ -206,7 +206,7 @@ translator:
 melt_eng:
   dictionary: melt_eng           # 英文词典
   enable_sentence: false         # 关闭自动造句
-  enable_completion: false       # 关闭自动提示
+  enable_completion: true       # 关闭自动提示
   initial_quality: 0.8
 
 

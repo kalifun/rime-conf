@@ -26,8 +26,8 @@ show_notifications_when: appropriate
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: mint_light_blue
-  color_scheme_dark: mint_dark_blue
+  color_scheme: ayaya
+  color_scheme_dark: ayaya
 
   # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
   
@@ -403,3 +403,28 @@ preset_color_schemes:
     hilited_candidate_label_color: 0xCC8947 #Lab 55 ,-10,-45
     hilited_comment_text_color: 0x289989    #Lab 60 ,-20, 65
     hilited_text_color: 0xBE706D            #Lab 50 , 15,-451
+
+  ayaya:
+      name: "文文／Ayaya"
+      author: "Lufs X <i@isteed.cc>"
+      alpha: 0.95
+      horizontal: true
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 5
+      border_height: 0
+      border_width: 0
+      font_face: "LXGWWenKai-Regular, PingFangSC"
+      font_point: 16.5
+      label_font_face: "LXGWWenKai-Regular, PingFangSC"
+      label_font_point: 12
+      color_space: display_p3
+      back_color: 0xFFFFFF
+      border_color: 0xECE4FC
+      candidate_text_color: 0x121212
+      comment_text_color: 0x8E8E8E
+      hilited_candidate_back_color: 0xECE4FC
+      hilited_candidate_label_color: 0xB18FF4
+      hilited_candidate_text_color: 0x7A40EC
+      label_color: 0x888785
+      text_color: 0x8100EB
